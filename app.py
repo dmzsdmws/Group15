@@ -7,13 +7,13 @@ import pandas as pd
 st.title("GROUP15 -IROFUDE-")
 st.title(" ")
 st.write('低学年')
-moji1 = Image.open('/content/images/iro1.jpg')
+moji1 = Image.open('images/iro1.jpg')
 st.image(moji1,width = 50)
 st.write('中学年')
-moji2 = Image.open('/content/images/iro2.jpg')
+moji2 = Image.open('images/iro2.jpg')
 st.image(moji2,width = 50)
 st.write('高学年')
-moji3 = Image.open('/content/images/iro3.jpg')
+moji3 = Image.open('images/iro3.jpg')
 st.image(moji3,width = 50)
 
 # ---------- テキスト入力 ----------
