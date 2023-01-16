@@ -9,7 +9,7 @@ import numpy as np
 import pandas as pd
 css = '''
 .stApp {
-    background: url('https://wallpapercave.com/uwp/uwp3212116.png');
+    background: url('https://wallpapercave.com/uwp/uwp3212117.png');
     background-size: cover;
     background-position: center;
 }
