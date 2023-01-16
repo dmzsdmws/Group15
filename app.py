@@ -14,7 +14,7 @@ css = '''
     background-size: 50%;
     background-repeat: no-repeat;
     background-position: center;
-    background-color: #6699CC;
+   
 }
 .stApp > header {
     background-color: #6699CC;
