@@ -1,12 +1,7 @@
 # 以下を「app.py」に書き込み
 import streamlit as st
-from pyngrok import ngrok
-import os
-import sys
-import datetime
-from PIL import Image
-import cv2
-import tkinter.filedialog as fd
+import numpy as np
+import pandas as pd
 
 st.title("GROUP15 -IROFUDE-")
 st.title(" ")
