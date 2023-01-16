@@ -17,7 +17,7 @@ css = '''
 .stApp > header {
     background-color: #6699CC;
 }
-.stApp > main {
+.stApp > content {
     background-color: #6699CC;
 }
 
