@@ -9,11 +9,12 @@ import numpy as np
 import pandas as pd
 css = '''
 .stApp {
-    background-color: #C2EEFF;
+    
     background: url('https://wallpapercave.com/uwp/uwp3212126.jpeg');
     background-size: 50%;
     background-repeat: no-repeat;
     background-position: center;
+    background-color: #C2EEFF;
    
 }
 .stApp > header {
