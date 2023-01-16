@@ -10,7 +10,7 @@ import pandas as pd
 css = '''
 .stApp {
     background: url('https://wallpapercave.com/uwp/uwp3212117.png');
-    background-size: 200%;
+    background-size: 60%;
     background-position: center;
 }
 .stApp > header {
