@@ -9,6 +9,7 @@ import numpy as np
 import pandas as pd
 css = '''
 .stApp {
+    background-color: #6699CC;
     background: url('https://wallpapercave.com/uwp/uwp3212126.jpeg');
     background-size: 50%;
     background-repeat: no-repeat;
@@ -17,9 +18,7 @@ css = '''
 .stApp > header {
     background-color: #6699CC;
 }
-.stApp > content {
-    background-color: #6699CC;
-}
+
 
 '''
 
