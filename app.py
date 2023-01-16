@@ -28,6 +28,7 @@ moji = st.text_input("検索したい文字:",key="moji",value = "irofude")
 if st.session_state.moji is not None:
    search = moji 
 image = Image.open(search +".jpg")
+st.write("検索結果")
 st.image(image,width = 200)
 st.write("低学年")
 moji1 = Image.open('images/iro1.jpg')
