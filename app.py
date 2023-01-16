@@ -5,6 +5,9 @@ from PIL import Image
 import numpy as np
 import pandas as pd
 st.title("   "  + "GROUP15 -IROFUDE-")
+st.set_page_config(
+        page_title= "Multipage App",
+        page_icon="📁")
 st.markdown('<style>div[class="css-6qob1r e1fqkh3o3"] { background: url("https://media2.giphy.com/media/46hpy8xB3MiHfruixn/giphy.gif");background-repeat: no-repeat;background-size:350%;border:1px solid #36454F; border-top:none;} </style>', unsafe_allow_html=True)
 st.title(" ")
 moji = st.text_input("検索したい文字",key="moji",value = "irofude")
