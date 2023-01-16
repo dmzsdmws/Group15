@@ -3,7 +3,7 @@ import streamlit as st
 from PIL import Image
 import numpy as np
 import pandas as pd
-
+<link href="background.css" rel="stylesheet">
 st.title("GROUP15 -IROFUDE-")
 st.title(" ")
 st.write('低学年')
