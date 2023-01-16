@@ -1,4 +1,7 @@
 # 以下を「app.py」に書き込み
+import io
+import os
+import fitz
 import streamlit as st
 import streamlit.components.v1 as components
 from PIL import Image
