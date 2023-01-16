@@ -3,7 +3,8 @@ import streamlit as st
 from PIL import Image
 import numpy as np
 import pandas as pd
-st.markdown('background.css')
+st.markdown( f'<img src="data:image/gif;base64,{data_url}" alt="cat gif">',
+    unsafe_allow_html=True)
 st.title("GROUP15 -IROFUDE-")
 st.title(" ")
 st.write('低学年')
