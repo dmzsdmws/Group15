@@ -7,6 +7,10 @@ import streamlit.components.v1 as components
 from PIL import Image
 import numpy as np
 import pandas as pd
+st.markdown("""
+ <style> 
+ background : blue
+ </style>""", unsafe_allow_html=True)
 st.title("   "  + "GROUP15 -IROFUDE-")
 st.title(" ")
 moji = st.text_input("検索したい文字",key="moji",value = "irofude")
