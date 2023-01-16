@@ -9,8 +9,8 @@ import numpy as np
 import pandas as pd
 css = '''
 .stApp {
-    background: url('https://wallpapercave.com/uwp/uwp3212117.png');
-    background-size: contain;
+    background: url('https://wallpapercave.com/uwp/uwp3212123.jpeg');
+    background-size: 50%;
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -24,7 +24,7 @@ st.markdown(f'<style>{css}</style>', unsafe_allow_html=True)
 
 st.title("   "  + "GROUP15 -IROFUDE-")
 st.title(" ")
-moji = st.text_input("検索したい文字",key="moji",value = "irofude")
+moji = st.text_input("検索したい文字:",key="moji",value = "irofude")
 if st.session_state.moji is not None:
    search = moji 
 image = Image.open(search +".jpg")
