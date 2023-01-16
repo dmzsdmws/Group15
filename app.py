@@ -10,17 +10,16 @@ if st.session_state.moji is not None:
    search = moji 
 image = Image.open(search +".jpg")
 st.image(image,width = 200)
-st.markdown(":blue低学年")
+st.markdown(":blue[低学年]")
 moji1 = Image.open('images/iro1.jpg')
 st.image(moji1,width = 50)
-st.markdown(":blue中学年")
+st.markdown(":blue[中学年]")
 moji2 = Image.open('images/iro2.jpg')
 st.image(moji2,width = 50)
-st.markdown(":blue高学年")
+st.markdown(":blue[高学年]")
 st.write(' ')
 moji3 = Image.open('images/iro3.jpg')
 st.image(moji3,width = 50)
 
 # ---------- テキスト入力 ----------
 search = "white"
-
