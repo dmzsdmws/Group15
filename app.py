@@ -15,7 +15,7 @@ css = '''
     background-position: center;
 }
 .stApp > header {
-    background-color: transparent;
+    background-color: #6699CC;
 }
 
 '''
