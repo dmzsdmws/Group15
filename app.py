@@ -4,7 +4,7 @@ from PIL import Image
 import numpy as np
 import pandas as pd
 st.title("   "  + "GROUP15 -IROFUDE-")
-st.markdown(”This text is :red[colored red], and this is **:blue[colored]** and bold.”)
+st.markdown("This text is :red[colored red], and this is **:blue[colored]** and bold.")
 st.title(" ")
 moji = st.text_input("検索したい文字",key="moji",value = "irofude")
 if st.session_state.moji is not None:
