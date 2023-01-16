@@ -3,16 +3,6 @@ import streamlit as st
 from PIL import Image
 import numpy as np
 import pandas as pd
-import base64
-back_css = f"""
-<style>
-    body {
-    background-image: url("data:background.png;base64,%s");
-    background-size: cover;
-    }
-</style>
-"""
-st.markdown(back_css, unsafe_allow_html=True)
 st.title("GROUP15 -IROFUDE-")
 st.title(" ")
 st.write('低学年')
