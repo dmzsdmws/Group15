@@ -80,11 +80,11 @@ with col6:
 st.write('**_高学年_**')
 col1, col2, col3 = st.columns(3)
 with col1:
-    st.image(moji3,width = 60)
+    st.image(moji3,width = 30)
 with col2:
-    st.image(moji3,width = 60)
+    st.image(moji3,width = 30)
 with col3:
-    st.image(moji3,width = 60)
+    st.image(moji3,width = 30)
 
 
 
