@@ -39,7 +39,7 @@ st.markdown('_スマホの画面を横にしてください_')
 search = "irofude"
 moji = st.text_input("検索したい文字:",key="moji",value = "irofude",placeholder = "irofude" )
 if st.session_state.moji is not None:
-   search = moji 
+   search = moji
 else:
    search = "irofude"
 
@@ -59,8 +59,12 @@ with col2:
 with col3:
     if st.button('復元'):
         x = 200
-
+with st.image(image,width = x):
+         tabs = on_hover_tabs(tabName=['BIG', 'Small'], 
+                              iconName=['big', 'small'], 
+                              key="1") ## create tabs for on hover navigation bar
 st.image(image,width = x)
+
 moji1 = Image.open('images/dai1.jpg')
 moji2 = Image.open('images/iro1.jpg')
 moji3 = Image.open('images/dan1.jpg')
