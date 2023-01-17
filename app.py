@@ -40,7 +40,7 @@ else:
 image = Image.open(search +".jpg")
 
 x = 200
-a = 60
+a = 80
 b = 80
 c = 80
 
@@ -71,14 +71,15 @@ moji12 = Image.open('images/sou.jpg')
 st.title(" 　")
 st.write(" 　")
 
-col1, col2 = st.columns(2)
+col1, col2 ,col3= st.columns(3)
 with col1:
     st.write('**_低学年_**')
 with col2:
     if st.button(' 画像拡大'):
-        a = 120
+        a = 160
+with col3:
     if st.button(' 復元'):
-        a = 60    
+        a = 80    
 
 col1, col2, col3, col4 = st.columns(4)
 with col1:
@@ -90,9 +91,16 @@ with col3:
 with col4:
     st.image(moji8,width = a)
 
-    
-st.write('**_中学年_**')
-col1, col2, col3, col4 ,col5 ,col6= st.columns(6)
+col1, col2 ,col3= st.columns(3)
+with col1:    
+    st.write('**_中学年_**')
+with col2:
+    if st.button(' 画像拡大 '):
+        b = 160
+with col3:
+    if st.button(' 復元 '):
+        b = 80 
+col1, col2, col3, col4= st.columns(4)
 with col1:
     st.image(moji2,width = b)
 with col2:
@@ -101,15 +109,18 @@ with col3:
     st.image(moji6,width = b)
 with col4:
     st.image(moji10,width = b)
-with col5:
-    if st.button(' 画像拡大 '):
-        b = 120
-with col6:
-    if st.button(' 復元 '):
-        b = 60    
-    
-st.write('**_高学年_**')
-col1, col2, col3, col4 ,col5 ,col6= st.columns(6)
+   
+col1, col2 ,col3= st.columns(3)
+with col1:    
+      t.write('**_高学年_**')
+with col2:
+    if st.button('画像拡大 '):
+        c = 160
+with col3:
+    if st.button('復元 '):
+        c = 80    
+
+col1, col2, col3, col4 = st.columns(4)
 with col1:
     st.image(moji9,width = c)
 with col2:
@@ -118,12 +129,6 @@ with col3:
     st.image(moji7,width = c)
 with col4:
     st.image(moji12,width = c)
-with col5:
-    if st.button('画像拡大 '):
-        c = 120
-with col6:
-    if st.button('復元 '):
-        c = 60    
 
 
 # ---------- テキスト入力 ----------
