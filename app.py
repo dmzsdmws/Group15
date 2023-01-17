@@ -27,6 +27,7 @@ css = '''
 '''
 
 st.markdown(f'<style>{css}</style>', unsafe_allow_html=True)
+st.markdown('<style>' + open('./style.css').read() + '</style>', unsafe_allow_html=True)
 st.title("  ")
 st.markdown('_スマホの画面を横にしてください_')
 search = "irofude"
