@@ -7,7 +7,7 @@ import streamlit.components.v1 as components
 from PIL import Image
 import numpy as np
 import pandas as pd
-st.write('スマホの画面を横にしてください')
+
 css = '''
 .stApp {
     
@@ -27,7 +27,7 @@ css = '''
 
 st.markdown(f'<style>{css}</style>', unsafe_allow_html=True)
 
-st.title("  ")
+st.write('スマホの画面を横にしてください')
 st.title(" ")
 search = "irofude"
 moji = st.text_input("検索したい文字:",key="moji",value = "irofude",placeholder = "irofude" )
