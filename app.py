@@ -7,7 +7,7 @@ import streamlit.components.v1 as components
 from PIL import Image
 import numpy as np
 import pandas as pd
-
+png = df.to_csv().encode('SHIFT-JIS')
 css = '''
 .stApp {
     
