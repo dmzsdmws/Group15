@@ -40,9 +40,9 @@ else:
 image = Image.open(search +".jpg")
 
 x = 200
-a = 60
-b = 60
-c = 60
+a = 80
+b = 80
+c = 80
 
 col1, col2 ,col3 = st.columns(3)
 with col1:
@@ -79,7 +79,7 @@ with col2:
         a = 120
     if st.button(' 復元'):
         a = 60    
-col1, col2, col3, col4 = st.columns(4, gap="small")
+col1, col2, col3, col4 = st.columns(4)
 with col1:
     st.image(moji1,width = a)
 with col2:
