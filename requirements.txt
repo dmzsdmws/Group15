@@ -9,3 +9,4 @@ Pillow
 opencv-python--headless
 streamlit==1.8.1
 streamlit_drawable_canvas==0.4.0
+streamlit-on-Hover-tabs
