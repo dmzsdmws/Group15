@@ -36,14 +36,24 @@ else:
    st.write('Error')
 
 image = Image.open(search +".jpg")
+
 x = 200
-col1, col2 ,col3 = st.columns(3)
+a = 60
+b = 60
+c = 60
+
+col1, col2 ,col3 ,col4= st.columns(4)
 with col1:
     st.markdown('**検索結果:**')
 with col2:
+    st.download_button(label='ダウンロード', 
+                   data=jpg, 
+                   file_name='search +".jpg"',
+                   )  
+with col3:
     if st.button('画像拡大'):
         x = 400
-with col3:
+with col4:
     if st.button('復元'):
         x = 200
 
@@ -61,46 +71,56 @@ st.title(" ")
 st.markdown('**_中学年_**')
 col1, col2, col3, col4, col5, col6 = st.columns(6)
 with col1:
-    st.image(moji1,width = 60)
+    st.image(moji1,width = a)
 with col2:
-    st.image(moji4,width = 60)
+    st.image(moji4,width = a)
 with col3:
-    st.image(moji5,width = 60)
-with col4:
-    st.image(moji1,width = 60)
+    st.image(moji5,width = a)
+with col4
+    st.image(moji1,width = a)
 with col5:
-    st.image(moji4,width = 60)
+    st.image(moji4,width = a)
 with col6:
-    st.image(moji5,width = 60)
+    st.image(moji5,width = a)
 
 st.write('**_中学年_**')
 col1, col2, col3, col4, col5, col6 = st.columns(6)
 with col1:
-    st.image(moji6,width = 60)
+    st.image(moji6,width = b)
 with col2:
-    st.image(moji2,width = 60)
+    st.image(moji2,width = b)
 with col3:
-    st.image(moji6,width = 60)
+    st.image(moji6,width = b)
 with col4:
-    st.image(moji2,width = 60)
+    st.image(moji2,width = b)
 with col5:
-    st.image(moji6,width = 60)
+    st.image(moji6,width = b)
 with col6:
-    st.image(moji2,width = 60)
-st.write('**_高学年_**')
+    st.image(moji2,width = b)
+    
+col1, col2 ,col3 = st.columns(3)
+with col1:
+    st.write('**_高学年_**')
+with col2:
+    if st.button('画像拡大'):
+        c = 120
+with col3:
+    if st.button('復元'):
+        c = 60    
+
 col1, col2, col3, col4, col5, col6 = st.columns(6)
 with col1:
-    st.image(moji3,width = 60)
+    st.image(moji3,width = c)
 with col2:
-    st.image(moji3,width = 60)
+    st.image(moji3,width = c)
 with col3:
-    st.image(moji3,width = 60)
+    st.image(moji3,width = c)
 with col4:
-    st.image(moji3,width = 60)
+    st.image(moji3,width = c)
 with col5:
-    st.image(moji3,width = 60)
+    st.image(moji3,width = c)
 with col6:
-    st.image(moji3,width = 60)
+    st.image(moji3,width = c)
 
 # ---------- テキスト入力 ----------
 search = "white"
