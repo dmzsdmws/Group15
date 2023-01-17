@@ -42,7 +42,7 @@ with col1:
     st.markdown('**検索結果:**')
 with col2:
     if st.button('画像拡大'):
-    　  x = 400
+        x = 400
 st.markdown('**検索結果:**')
 st.image(image,width = x)
 moji1 = Image.open('images/dai1.jpg')
