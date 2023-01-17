@@ -40,7 +40,7 @@ else:
 image = Image.open(search +".jpg")
 
 x = 200
-a = 80
+a = 60
 b = 80
 c = 80
 
