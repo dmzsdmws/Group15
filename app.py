@@ -76,7 +76,7 @@ with col2:
     st.image(moji4,width = a)
 with col3:
     st.image(moji5,width = a)
-with col4
+with col4:
     st.image(moji1,width = a)
 with col5:
     st.image(moji4,width = a)
