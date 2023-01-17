@@ -44,7 +44,7 @@ moji7 = Image.open('images/dai3.jpg')
 moji8 = Image.open('images/dan3.jpg')
 moji9 = Image.open('images/iro3.jpg')
 st.write("低学年")
-col1, col2, col3, col4, col5, col6 = st.columns(3)
+col1, col2, col3, col4, col5, col6 = st.columns(6)
 with col1:
     st.image(moji1,width = 60)
 with col2:
@@ -59,7 +59,7 @@ with col6:
     st.image(moji1,width = 60)
 
 st.write("中学年")
-col1, col2, col3, col4, col5, col6 = st.columns(3)
+col1, col2, col3, col4, col5, col6 = st.columns(6)
 with col1:
     st.image(moji2,width = 60)
 with col2:
@@ -73,7 +73,7 @@ with col5:
 with col6:
     st.image(moji2,width = 60)
 st.write("高学年")
-col1, col2, col3, col4, col5, col6 = st.columns(3)
+col1, col2, col3, col4, col5, col6 = st.columns(6)
 with col1:
     st.image(moji3,width = 60)
 with col2:
