@@ -73,7 +73,7 @@ st.write(" 　")
 
 col1, col2= st.columns(2)
 with col1:
-st.write('**_低学年_**')
+    st.write('**_低学年_**')
 with col2:
     if st.button(' 画像拡大'):
         a = 120
