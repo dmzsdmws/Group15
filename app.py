@@ -99,17 +99,17 @@ with col3:
         b = 60    
 col1, col2, col3, col4, col5, col6 = st.columns(6)
 with col1:
-    st.image(moji6,width = b)
+    st.image(moji2,width = b)
 with col2:
-    st.image(moji10,width = b)
-with col3:
-    st.image(moji2,width = b)
-with col4:
     st.image(moji6,width = b)
-with col5:
+with col3:
     st.image(moji10,width = b)
-with col6:
+with col4:
     st.image(moji2,width = b)
+with col5:
+    st.image(moji6,width = b)
+with col6:
+    st.image(moji10,width = b)
     
 col1, col2 ,col3 = st.columns(3)
 with col1:
@@ -123,15 +123,15 @@ with col3:
 
 col1, col2, col3, col4, col5, col6 = st.columns(6)
 with col1:
-    st.image(moji3,width = c)
-with col2:
     st.image(moji9,width = c)
+with col2:
+    st.image(moji3,width = c)
 with col3:
     st.image(moji7,width = c)
 with col4:
-    st.image(moji3,width = c)
-with col5:
     st.image(moji9,width = c)
+with col5:
+    st.image(moji3,width = c)
 with col6:
     st.image(moji7,width = c)
 
