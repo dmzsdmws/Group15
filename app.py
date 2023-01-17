@@ -65,7 +65,7 @@ moji7 = Image.open('images/ai.jpg')
 moji8 = Image.open('images/san.jpg')
 moji9 = Image.open('images/fude.jpg')
 moji10 = Image.open('images/ki.jpg')
-st.title(" ")
+st.title(" 　")
 
 col1, col2 ,col3 = st.columns(3)
 with col1:
