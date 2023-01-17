@@ -47,8 +47,8 @@ with col1:
     st.markdown('**検索結果:**')
 with col2:
     st.download_button(label='ダウンロード', 
-                   data=jpg, 
-                   file_name='search +".jpg"',
+                   data=jpeg, 
+                   file_name='search +".jpeg"',
                    )  
 with col3:
     if st.button('画像拡大'):
