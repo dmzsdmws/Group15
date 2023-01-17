@@ -41,9 +41,9 @@ st.image(image,width = 200)
 moji1 = Image.open('images/dai1.jpg')
 moji2 = Image.open('images/iro1.jpg')
 moji3 = Image.open('images/dan1.jpg')
-moji4 = Image.open('images/dai2.jpg')
-moji5 = Image.open('images/dan2.jpg')
-moji6 = Image.open('images/iro2.jpg')
+moji4 = Image.open('images/ichi.jpg')
+moji5 = Image.open('images/ni.jpg')
+moji6 = Image.open('images/ao.jpg')
 moji7 = Image.open('images/dai3.jpg')
 moji8 = Image.open('images/dan3.jpg')
 moji9 = Image.open('images/iro3.jpg')
@@ -53,28 +53,28 @@ col1, col2, col3, col4, col5, col6 = st.columns(6)
 with col1:
     st.image(moji1,width = 60)
 with col2:
-    st.image(moji1,width = 60)
+    st.image(moji4,width = 60)
 with col3:
-    st.image(moji1,width = 60)
+    st.image(moji15,width = 60)
 with col4:
     st.image(moji1,width = 60)
 with col5:
-    st.image(moji1,width = 60)
+    st.image(moji4,width = 60)
 with col6:
-    st.image(moji1,width = 60)
+    st.image(moji5,width = 60)
 
 st.write('**_中学年_**')
 col1, col2, col3, col4, col5, col6 = st.columns(6)
 with col1:
-    st.image(moji2,width = 60)
+    st.image(moji6,width = 60)
 with col2:
     st.image(moji2,width = 60)
 with col3:
-    st.image(moji2,width = 60)
+    st.image(moji6,width = 60)
 with col4:
     st.image(moji2,width = 60)
 with col5:
-    st.image(moji2,width = 60)
+    st.image(moji6,width = 60)
 with col6:
     st.image(moji2,width = 60)
 st.write('**_高学年_**')
