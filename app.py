@@ -9,6 +9,12 @@ import numpy as np
 import pandas as pd
 from st_on_hover_tabs import on_hover_tabs
 
+def on_hover_tabs(tabName, iconName, styles=None, default_choice=1, key=None):
+    
+    component_value = _on_hover_tabs(tabName=tabName, iconName=iconName, styles=styles, key=key, default=tabName[default_choice])
+    
+    return component_value
+
 css = '''
 .stApp {
     
