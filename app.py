@@ -44,7 +44,7 @@ moji7 = Image.open('images/dai3.jpg')
 moji8 = Image.open('images/dan3.jpg')
 moji9 = Image.open('images/iro3.jpg')
 st.write("低学年")
-col1, col2, col3 = st.beta_columns(3)
+col1, col2, col3 = st.columns(3)
 with col1:
     st.image(moji1,width = 50)
 
