@@ -46,7 +46,7 @@ with col2:
 with col3:
     if st.button('復元'):
         x = 200
-st.markdown('**検索結果:**')
+
 st.image(image,width = x)
 moji1 = Image.open('images/dai1.jpg')
 moji2 = Image.open('images/iro1.jpg')
