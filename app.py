@@ -62,7 +62,17 @@ moji7 = Image.open('images/dai3.jpg')
 moji8 = Image.open('images/dan3.jpg')
 moji9 = Image.open('images/iro3.jpg')
 st.title(" ")
-st.markdown('**_中学年_**')
+
+col1, col2 ,col3 = st.columns(3)
+with col1:
+    st.write('**_低学年_**')
+with col2:
+    if st.button(' 画像拡大'):
+        a = 120
+with col3:
+    if st.button(' 復元'):
+        a = 60    
+        
 col1, col2, col3, col4, col5, col6 = st.columns(6)
 with col1:
     st.image(moji1,width = a)
@@ -76,8 +86,16 @@ with col5:
     st.image(moji4,width = a)
 with col6:
     st.image(moji5,width = a)
-
-st.write('**_中学年_**')
+    
+col1, col2 ,col3 = st.columns(3)
+with col1:
+    st.write('**_中学年_**')
+with col2:
+    if st.button(' 画像拡大 '):
+        b = 120
+with col3:
+    if st.button(' 復元 '):
+        b = 60    
 col1, col2, col3, col4, col5, col6 = st.columns(6)
 with col1:
     st.image(moji6,width = b)
