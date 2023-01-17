@@ -7,7 +7,6 @@ import streamlit.components.v1 as components
 from PIL import Image
 import numpy as np
 import pandas as pd
-png = df.to_csv().encode('SHIFT-JIS')
 css = '''
 .stApp {
     
@@ -46,8 +45,7 @@ col1, col2 ,col3 ,col4= st.columns(4)
 with col1:
     st.markdown('**検索結果:**')
 with col2:
-    st.download_button(label='ダウンロード', 
-                   data=png, 
+    st.download_button(label='ダウンロード',
                    file_name='search +".png"',
                    mime='image/png'    
                    )  
