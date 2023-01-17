@@ -34,16 +34,30 @@ if st.session_state.moji is not None:
 image = Image.open(search +".jpg")
 st.write("_検索結果:_")
 st.image(image,width = 200)
+moji1 = Image.open('images/dai1.jpg')
+moji2 = Image.open('images/dan1.jpg')
+moji3 = Image.open('images/iro1.jpg')
+moji4 = Image.open('images/dai2.jpg')
+moji5 = Image.open('images/dan2.jpg')
+moji6 = Image.open('images/iro2.jpg')
+moji7 = Image.open('images/dai3.jpg')
+moji8 = Image.open('images/dan3.jpg')
+moji9 = Image.open('images/iro3.jpg')
 st.write("低学年")
-moji1 = Image.open('images/iro1.jpg')
-st.image(moji1,width = 50)
+col1, col2, col3 = st.beta_columns(3)
+with col1:
+    st.image(moji1,width = 50)
+
+with col2:
+    st.image(moji2,width = 50)
+    
+with col3:
+    st.image(moji3,width = 50)
+
 st.write("中学年")
-moji2 = Image.open('images/iro2.jpg')
-st.image(moji2,width = 50)
+st.image(moji4,width = 50)
 st.write("高学年")
-st.write(' ')
-moji3 = Image.open('images/iro3.jpg')
-st.image(moji3,width = 50)
+st.image(moji7,width = 50)
 
 # ---------- テキスト入力 ----------
 search = "white"
