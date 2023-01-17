@@ -13,7 +13,7 @@ css = '''
 .stApp {
     
     background: url('https://wallpapercave.com/uwp/uwp3212126.jpeg');
-    background-size: 67%;
+    background-size: 75%;
     background-repeat: no-repeat;
     background-position: center;
     background-color: #C2EEFF;
@@ -27,13 +27,13 @@ css = '''
 '''
 
 st.markdown(f'<style>{css}</style>', unsafe_allow_html=True)
-
+st.markdown('<style>' + open('./style.css').read() + '</style>', unsafe_allow_html=True)
 st.title("  ")
 st.markdown('_スマホの画面を横にしてください_')
 search = "irofude"
 moji = st.text_input("検索したい文字:",key="moji",value = "irofude",placeholder = "irofude" )
 if st.session_state.moji is not None:
-   search = moji
+   search = moji 
 else:
    search = "irofude"
 
@@ -53,9 +53,8 @@ with col2:
 with col3:
     if st.button('復元'):
         x = 200
-        
-st.image(image,width = x)
 
+st.image(image,width = x)
 moji1 = Image.open('images/dai1.jpg')
 moji2 = Image.open('images/iro1.jpg')
 moji3 = Image.open('images/dan1.jpg')
