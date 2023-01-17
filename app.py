@@ -41,18 +41,13 @@ a = 60
 b = 60
 c = 60
 
-col1, col2 ,col3 ,col4= st.columns(4)
+col1, col2 ,col3 = st.columns(3)
 with col1:
     st.markdown('**検索結果:**')
 with col2:
-    st.download_button(label='ダウンロード',
-                   file_name='search +".png"',
-                   mime='image/png'    
-                   )  
-with col3:
     if st.button('画像拡大'):
         x = 400
-with col4:
+with col3:
     if st.button('復元'):
         x = 200
 
