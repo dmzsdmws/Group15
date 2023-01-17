@@ -71,7 +71,7 @@ moji12 = Image.open('images/sou.jpg')
 st.title(" 　")
 st.write(" 　")
 
-col1, col2= st.columns(2)
+col1, col2 = st.columns(2)
 with col1:
     st.write('**_低学年_**')
 with col2:
@@ -79,6 +79,7 @@ with col2:
         a = 120
     if st.button(' 復元'):
         a = 60    
+
 col1, col2, col3, col4 = st.columns(4)
 with col1:
     st.image(moji1,width = a)
