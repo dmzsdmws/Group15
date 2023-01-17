@@ -81,7 +81,7 @@ with col3:
     if st.button(' 復元'):
         a = 60    
         
-col1, col2, col3, col4 ,col5= st.columns(6)
+col1, col2, col3, col4 ,col5 ,col6= st.columns(6)
 with col1:
     st.image(moji1,width = a)
 with col2:
