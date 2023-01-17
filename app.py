@@ -58,9 +58,10 @@ moji3 = Image.open('images/dan1.jpg')
 moji4 = Image.open('images/ichi.jpg')
 moji5 = Image.open('images/ni.jpg')
 moji6 = Image.open('images/ao.jpg')
-moji7 = Image.open('images/dai3.jpg')
-moji8 = Image.open('images/dan3.jpg')
-moji9 = Image.open('images/iro3.jpg')
+moji7 = Image.open('images/ai.jpg')
+moji8 = Image.open('images/san.jpg')
+moji9 = Image.open('images/fude.jpg')
+moji10 = Image.open('images/ki.jpg')
 st.title(" ")
 
 col1, col2 ,col3 = st.columns(3)
@@ -81,11 +82,11 @@ with col2:
 with col3:
     st.image(moji5,width = a)
 with col4:
-    st.image(moji1,width = a)
+    st.image(moji8,width = a)
 with col5:
-    st.image(moji4,width = a)
+    st.image(moji1,width = a)
 with col6:
-    st.image(moji5,width = a)
+    st.image(moji4,width = a)
     
 col1, col2 ,col3 = st.columns(3)
 with col1:
@@ -100,13 +101,13 @@ col1, col2, col3, col4, col5, col6 = st.columns(6)
 with col1:
     st.image(moji6,width = b)
 with col2:
-    st.image(moji2,width = b)
+    st.image(moji10,width = b)
 with col3:
-    st.image(moji6,width = b)
-with col4:
     st.image(moji2,width = b)
-with col5:
+with col4:
     st.image(moji6,width = b)
+with col5:
+    st.image(moji10,width = b)
 with col6:
     st.image(moji2,width = b)
     
@@ -124,15 +125,15 @@ col1, col2, col3, col4, col5, col6 = st.columns(6)
 with col1:
     st.image(moji3,width = c)
 with col2:
-    st.image(moji3,width = c)
+    st.image(moji9,width = c)
 with col3:
-    st.image(moji3,width = c)
+    st.image(moji7,width = c)
 with col4:
     st.image(moji3,width = c)
 with col5:
-    st.image(moji3,width = c)
+    st.image(moji9,width = c)
 with col6:
-    st.image(moji3,width = c)
+    st.image(moji7,width = c)
 
 # ---------- テキスト入力 ----------
 search = "white"
