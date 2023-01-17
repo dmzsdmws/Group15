@@ -69,8 +69,7 @@ moji11 = Image.open('images/wara.jpg')
 moji12 = Image.open('images/sou.jpg')
 
 st.title(" 　")
-st.title(" 　")
-
+st.write(" 　")
 
 col1, col2 ,col3 = st.columns(3)
 with col1:
@@ -82,7 +81,7 @@ with col3:
     if st.button(' 復元'):
         a = 60    
         
-col1, col2, col3, col4= st.columns(4)
+col1, col2, col3, col4 ,col5= st.columns(6)
 with col1:
     st.image(moji1,width = a)
 with col2:
@@ -91,7 +90,12 @@ with col3:
     st.image(moji5,width = a)
 with col4:
     st.image(moji8,width = a)
-
+with col5:
+    if st.button(' 画像拡大'):
+        a = 120
+with col6:
+    if st.button(' 復元'):
+        a = 60    
     
 col1, col2 ,col3 = st.columns(3)
 with col1:
