@@ -28,6 +28,7 @@ css = '''
 st.markdown(f'<style>{css}</style>', unsafe_allow_html=True)
 st.title(" ")
 st.write('スマホの画面を横にしてください')
+st.markdown('_スマホの画面を横にしてください_')
 search = "irofude"
 moji = st.text_input("検索したい文字:",key="moji",value = "irofude",placeholder = "irofude" )
 if st.session_state.moji is not None:
@@ -48,7 +49,7 @@ moji7 = Image.open('images/dai3.jpg')
 moji8 = Image.open('images/dan3.jpg')
 moji9 = Image.open('images/iro3.jpg')
 st.title(" ")
-st.markdown('**低学年**')
+st.markdown('**_中学年_**')
 col1, col2, col3, col4, col5, col6 = st.columns(6)
 with col1:
     st.image(moji1,width = 60)
