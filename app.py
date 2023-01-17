@@ -44,30 +44,48 @@ moji7 = Image.open('images/dai3.jpg')
 moji8 = Image.open('images/dan3.jpg')
 moji9 = Image.open('images/iro3.jpg')
 st.write("低学年")
-col1, col2, col3 = st.columns(3)
+col1, col2, col3, col4, col5, col6 = st.columns(3)
 with col1:
     st.image(moji1,width = 60)
 with col2:
-    st.image(moji4,width = 60)
+    st.image(moji1,width = 60)
 with col3:
-    st.image(moji7,width = 60)
+    st.image(moji1,width = 60)
+with col4:
+    st.image(moji1,width = 60)
+with col5:
+    st.image(moji1,width = 60)
+with col6:
+    st.image(moji1,width = 60)
 
 st.write("中学年")
-col1, col2, col3 = st.columns(3)
+col1, col2, col3, col4, col5, col6 = st.columns(3)
 with col1:
     st.image(moji2,width = 60)
 with col2:
-    st.image(moji5,width = 60)
+    st.image(moji2,width = 60)
 with col3:
-    st.image(moji8,width = 60)
+    st.image(moji2,width = 60)
+with col4:
+    st.image(moji2,width = 60)
+with col5:
+    st.image(moji2,width = 60)
+with col6:
+    st.image(moji2,width = 60)
 st.write("高学年")
-col1, col2, col3 = st.columns(3)
+col1, col2, col3, col4, col5, col6 = st.columns(3)
 with col1:
     st.image(moji3,width = 60)
 with col2:
-    st.image(moji6,width = 60)
+    st.image(moji3,width = 60)
 with col3:
-    st.image(moji9,width = 60)
+    st.image(moji3,width = 60)
+with col4:
+    st.image(moji3,width = 60)
+with col5:
+    st.image(moji3,width = 60)
+with col6:
+    st.image(moji3,width = 60)
 
 # ---------- テキスト入力 ----------
 search = "white"
