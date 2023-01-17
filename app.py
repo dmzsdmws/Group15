@@ -9,6 +9,7 @@ import numpy as np
 import pandas as pd
 from st_on_hover_tabs import on_hover_tabs
 
+st.markdown('<style>' + open('./style.css').read() + '</style>', unsafe_allow_html=True)
 def on_hover_tabs(tabName, iconName, styles=None, default_choice=1, key=None):
     
     component_value = _on_hover_tabs(tabName=tabName, iconName=iconName, styles=styles, key=key, default=tabName[default_choice])
@@ -33,7 +34,7 @@ css = '''
 '''
 
 st.markdown(f'<style>{css}</style>', unsafe_allow_html=True)
-st.markdown('<style>' + open('./style.css').read() + '</style>', unsafe_allow_html=True)
+
 st.title("  ")
 st.markdown('_スマホの画面を横にしてください_')
 search = "irofude"
