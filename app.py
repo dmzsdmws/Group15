@@ -82,7 +82,7 @@ with col3:
     if st.button(' 復元'):
         a = 60    
         
-col1, col2, col3, col4, col5, col6 = st.columns(6)
+col1, col2, col3, col4= st.columns(4)
 with col1:
     st.image(moji1,width = a)
 with col2:
@@ -91,10 +91,7 @@ with col3:
     st.image(moji5,width = a)
 with col4:
     st.image(moji8,width = a)
-with col5:
-    st.image(moji1,width = a)
-with col6:
-    st.image(moji4,width = a)
+
     
 col1, col2 ,col3 = st.columns(3)
 with col1:
@@ -105,7 +102,7 @@ with col2:
 with col3:
     if st.button(' 復元 '):
         b = 60    
-col1, col2, col3, col4, col5, col6 = st.columns(6)
+col1, col2, col3, col4= st.columns(4)
 with col1:
     st.image(moji2,width = b)
 with col2:
@@ -113,11 +110,8 @@ with col2:
 with col3:
     st.image(moji10,width = b)
 with col4:
-    st.image(moji2,width = b)
-with col5:
-    st.image(moji6,width = b)
-with col6:
-    st.image(moji10,width = b)
+    st.image(moji11,width = b)
+
     
 col1, col2 ,col3 = st.columns(3)
 with col1:
@@ -129,7 +123,7 @@ with col3:
     if st.button('復元 '):
         c = 60    
 
-col1, col2, col3, col4, col5, col6 = st.columns(6)
+col1, col2, col3, col4= st.columns(4)
 with col1:
     st.image(moji9,width = c)
 with col2:
@@ -137,11 +131,8 @@ with col2:
 with col3:
     st.image(moji7,width = c)
 with col4:
-    st.image(moji9,width = c)
-with col5:
-    st.image(moji3,width = c)
-with col6:
-    st.image(moji7,width = c)
+    st.image(moji12,width = c)
+
 
 # ---------- テキスト入力 ----------
 search = "irofude"
