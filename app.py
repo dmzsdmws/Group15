@@ -89,16 +89,8 @@ with col6:
     if st.button(' 復元'):
         a = 60    
     
-col1, col2 ,col3 = st.columns(3)
-with col1:
-    st.write('**_中学年_**')
-with col2:
-    if st.button(' 画像拡大 '):
-        b = 120
-with col3:
-    if st.button(' 復元 '):
-        b = 60    
-col1, col2, col3, col4= st.columns(4, *, gap="small")
+st.write('**_中学年_**')
+col1, col2, col3, col4 ,col5 ,col6= st.columns(6)
 with col1:
     st.image(moji2,width = b)
 with col2:
@@ -107,19 +99,15 @@ with col3:
     st.image(moji10,width = b)
 with col4:
     st.image(moji11,width = b)
-
+with col5:
+    if st.button(' 画像拡大 '):
+        b = 120
+with col6:
+    if st.button(' 復元 '):
+        b = 60    
     
-col1, col2 ,col3 = st.columns(3)
-with col1:
-    st.write('**_高学年_**')
-with col2:
-    if st.button('画像拡大 '):
-        c = 120
-with col3:
-    if st.button('復元 '):
-        c = 60    
-
-col1, col2, col3, col4= st.columns(4)
+st.write('**_高学年_**')
+col1, col2, col3, col4 ,col5 ,col6= st.columns(6)
 with col1:
     st.image(moji9,width = c)
 with col2:
@@ -128,6 +116,12 @@ with col3:
     st.image(moji7,width = c)
 with col4:
     st.image(moji12,width = c)
+with col5:
+    if st.button('画像拡大 '):
+        c = 120
+with col6:
+    if st.button('復元 '):
+        c = 60    
 
 
 # ---------- テキスト入力 ----------
