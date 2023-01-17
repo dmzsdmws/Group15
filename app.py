@@ -94,11 +94,11 @@ col1, col2, col3, col4 ,col5 ,col6= st.columns(6)
 with col1:
     st.image(moji2,width = b)
 with col2:
-    st.image(moji6,width = b)
-with col3:
-    st.image(moji10,width = b)
-with col4:
     st.image(moji11,width = b)
+with col3:
+    st.image(moji6,width = b)
+with col4:
+    st.image(moji10,width = b)
 with col5:
     if st.button(' 画像拡大 '):
         b = 120
