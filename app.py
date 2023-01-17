@@ -21,9 +21,7 @@ css = '''
     background-color: #6699CC;
 }
 
-
 '''
-
 st.markdown(f'<style>{css}</style>', unsafe_allow_html=True)
 st.title("  ")
 st.markdown('_スマホの画面を横にしてください_')
