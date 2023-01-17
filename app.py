@@ -37,12 +37,15 @@ else:
 
 image = Image.open(search +".jpg")
 x = 200
-col1, col2 = st.columns(2)
+col1, col2 ,col3 = st.columns(3)
 with col1:
     st.markdown('**検索結果:**')
 with col2:
     if st.button('画像拡大'):
         x = 400
+with col3:
+    if st.button('復元'):
+        x = 200
 st.markdown('**検索結果:**')
 st.image(image,width = x)
 moji1 = Image.open('images/dai1.jpg')
