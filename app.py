@@ -71,16 +71,8 @@ moji12 = Image.open('images/sou.jpg')
 st.title(" 　")
 st.write(" 　")
 
-col1, col2 ,col3 = st.columns(3)
-with col1:
-    st.write('**_低学年_**')
-with col2:
-    if st.button(' 画像拡大'):
-        a = 120
-with col3:
-    if st.button(' 復元'):
-        a = 60    
-        
+st.write('**_低学年_**')
+
 col1, col2, col3, col4 ,col5 ,col6= st.columns(6)
 with col1:
     st.image(moji1,width = a)
