@@ -26,9 +26,8 @@ css = '''
 '''
 
 st.markdown(f'<style>{css}</style>', unsafe_allow_html=True)
-
-st.write('スマホの画面を横にしてください')
 st.title(" ")
+st.write('スマホの画面を横にしてください')
 search = "irofude"
 moji = st.text_input("検索したい文字:",key="moji",value = "irofude",placeholder = "irofude" )
 if st.session_state.moji is not None:
