@@ -96,10 +96,10 @@ col1, col2 ,col3 = st.columns(3)
 with col1:
     st.write('**_高学年_**')
 with col2:
-    if st.button('拡大'):
+    if st.button('画像拡大 '):
         c = 120
 with col3:
-    if st.button('re'):
+    if st.button('復元 '):
         c = 60    
 
 col1, col2, col3, col4, col5, col6 = st.columns(6)
