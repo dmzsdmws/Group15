@@ -9,13 +9,6 @@ import numpy as np
 import pandas as pd
 from st_on_hover_tabs import on_hover_tabs
 
-st.markdown('<style>' + open('./style.css').read() + '</style>', unsafe_allow_html=True)
-def on_hover_tabs(tabName, iconName, styles=None, default_choice=1, key=None):
-    
-    component_value = _on_hover_tabs(tabName=tabName, iconName=iconName, styles=styles, key=key, default=tabName[default_choice])
-    
-    return component_value
-
 css = '''
 .stApp {
     
@@ -61,23 +54,6 @@ with col3:
     if st.button('復元'):
         x = 200
         
-with st.sidebar:
-         tabs = on_hover_tabs(tabName=['Dashboard', 'Money', 'Economy'], 
-                              iconName=['dashboard', 'money', 'economy'], 
-                              key="1") ## create tabs for on hover navigation bar
-
-    if tabs =='Dashboard':
-        st.title("Navigation Bar")
-        st.write('Name of option is {}'.format(tabs))
-
-    elif tabs == 'Money':
-        st.title("Paper")
-        st.write('Name of option is {}'.format(tabs))
-
-    elif tabs == 'Economy':
-        st.title("Tom")
-        st.write('Name of option is {}'.format(tabs))
-
 st.image(image,width = x)
 
 moji1 = Image.open('images/dai1.jpg')
