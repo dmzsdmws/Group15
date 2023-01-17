@@ -32,7 +32,7 @@ moji = st.text_input("検索したい文字:",key="moji",value = "irofude",place
 if st.session_state.moji is not None:
    search = moji 
 else:
-   st.write('Error')
+   search = "irofude"
 
 image = Image.open(search +".jpg")
 
@@ -136,4 +136,4 @@ with col6:
     st.image(moji7,width = c)
 
 # ---------- テキスト入力 ----------
-search = "white"
+search = "irofude"
