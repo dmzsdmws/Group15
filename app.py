@@ -78,7 +78,7 @@ with col5:
 with col6:
     st.image(moji2,width = 60)
 st.write('**_高学年_**')
-col1, col2, col3, col4 = st.columns()
+col1, col2, col3, col4 = st.columns(4)
 with col1:
     st.image(moji3,width = 60)
 with col2:
