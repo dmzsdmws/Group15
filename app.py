@@ -27,7 +27,7 @@ css = '''
 '''
 
 st.markdown(f'<style>{css}</style>', unsafe_allow_html=True)
-st.markdown('<style>' + open('./style.css').read() + '</style>', unsafe_allow_html=True)
+
 st.title("  ")
 st.markdown('_スマホの画面を横にしてください_')
 search = "irofude"
@@ -65,6 +65,9 @@ moji7 = Image.open('images/ai.jpg')
 moji8 = Image.open('images/san.jpg')
 moji9 = Image.open('images/fude.jpg')
 moji10 = Image.open('images/ki.jpg')
+moji11 = Image.open('images/wara.jpg')
+moji12 = Image.open('images/sou.jpg')
+
 st.title(" 　")
 st.title(" 　")
 
