@@ -33,7 +33,6 @@ if st.session_state.moji is not None:
    search = moji 
 image = Image.open(search +".jpg")
 st.markdown('**検索結果:**')
-st.markdown('**_result:_**')
 st.image(image,width = 200)
 moji1 = Image.open('images/dai1.jpg')
 moji2 = Image.open('images/dan1.jpg')
