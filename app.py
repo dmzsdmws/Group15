@@ -78,15 +78,19 @@ with col5:
 with col6:
     st.image(moji2,width = 60)
 st.write('**_高学年_**')
-col1, col2, col3 = st.columns(3)
+col1, col2, col3, col4, col5, col6 = st.columns(6)
 with col1:
-    st.image(moji3,width = 30)
+    st.image(moji3,width = 60)
 with col2:
-    st.image(moji3,width = 30)
+    st.image(moji3,width = 60)
 with col3:
-    st.image(moji3,width = 30)
-
-
+    st.image(moji3,width = 60)
+with col4:
+    st.image(moji3,width = 60)
+with col5:
+    st.image(moji3,width = 60)
+with col6:
+    st.image(moji3,width = 60)
 
 # ---------- テキスト入力 ----------
 search = "white"
