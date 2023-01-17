@@ -7,6 +7,7 @@ import streamlit.components.v1 as components
 from PIL import Image
 import numpy as np
 import pandas as pd
+st.write('スマホの画面を横にしてください')
 css = '''
 .stApp {
     
