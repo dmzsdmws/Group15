@@ -39,8 +39,8 @@ image = Image.open(search +".jpg")
 st.markdown('**検索結果:**')
 st.image(image,width = 200)
 moji1 = Image.open('images/dai1.jpg')
-moji2 = Image.open('images/dan1.jpg')
-moji3 = Image.open('images/iro1.jpg')
+moji2 = Image.open('images/iro1.jpg')
+moji3 = Image.open('images/dan1.jpg')
 moji4 = Image.open('images/dai2.jpg')
 moji5 = Image.open('images/dan2.jpg')
 moji6 = Image.open('images/iro2.jpg')
@@ -78,15 +78,14 @@ with col5:
 with col6:
     st.image(moji2,width = 60)
 st.write('**_高学年_**')
-col1, col2, col3, col4 = st.columns(4)
+col1, col2, col3 = st.columns(3)
 with col1:
     st.image(moji3,width = 60)
 with col2:
     st.image(moji3,width = 60)
 with col3:
     st.image(moji3,width = 60)
-with col4:
-    st.image(moji3,width = 60)
+
 
 
 # ---------- テキスト入力 ----------
