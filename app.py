@@ -47,6 +47,7 @@ moji6 = Image.open('images/iro2.jpg')
 moji7 = Image.open('images/dai3.jpg')
 moji8 = Image.open('images/dan3.jpg')
 moji9 = Image.open('images/iro3.jpg')
+st.title(" ")
 st.markdown('**低学年**')
 col1, col2, col3, col4, col5, col6 = st.columns(6)
 with col1:
