@@ -55,6 +55,14 @@ with col3:
         x = 200
 
 st.image(image,width = x, output_format="PNG")
+with open('image+".png"', "rb") as file:
+    btn = st.download_button(
+            label="Download image",
+            data=file,
+            file_name='image+".png"',
+            mime="image/png"
+          )
+
 moji1 = Image.open('images/dai1.jpg')
 moji2 = Image.open('images/iro1.jpg')
 moji3 = Image.open('images/dan1.jpg')
