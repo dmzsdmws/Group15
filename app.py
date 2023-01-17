@@ -60,10 +60,24 @@ with col2:
 with col3:
     if st.button('復元'):
         x = 200
-with st.image(image,width = x):
-         tabs = on_hover_tabs(tabName=['BIG', 'Small'], 
-                              iconName=['big', 'small'], 
+        
+with st.sidebar:
+         tabs = on_hover_tabs(tabName=['Dashboard', 'Money', 'Economy'], 
+                              iconName=['dashboard', 'money', 'economy'], 
                               key="1") ## create tabs for on hover navigation bar
+
+    if tabs =='Dashboard':
+        st.title("Navigation Bar")
+        st.write('Name of option is {}'.format(tabs))
+
+    elif tabs == 'Money':
+        st.title("Paper")
+        st.write('Name of option is {}'.format(tabs))
+
+    elif tabs == 'Economy':
+        st.title("Tom")
+        st.write('Name of option is {}'.format(tabs))
+
 st.image(image,width = x)
 
 moji1 = Image.open('images/dai1.jpg')
