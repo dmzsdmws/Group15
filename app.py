@@ -7,12 +7,11 @@ import streamlit.components.v1 as components
 from PIL import Image
 import numpy as np
 import pandas as pd
-from st_on_hover_tabs import on_hover_tabs
 
 css = '''
 .stApp {
     
-    background: url('https://wallpapercave.com/uwp/uwp3220126.jpeg');
+    background: url('https://wallpapercave.com/uwp/uwp3212126.jpeg');
     background-size: 75%;
     background-repeat: no-repeat;
     background-position: center;
@@ -22,8 +21,6 @@ css = '''
 .stApp > header {
     background-color: #6699CC;
 }
-
-
 '''
 
 st.markdown(f'<style>{css}</style>', unsafe_allow_html=True)
