@@ -13,7 +13,7 @@ css = '''
 .stApp {
     
     background: url('https://wallpapercave.com/uwp/uwp3219962.jpeg');
-    background-size: 70%;
+    background-size: 60%;
     background-repeat: no-repeat;
     background-position: center;
     background-color: #C2EEFF;
