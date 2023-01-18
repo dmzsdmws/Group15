@@ -12,8 +12,8 @@ from st_on_hover_tabs import on_hover_tabs
 css = '''
 .stApp {
     
-    background: url('https://wallpapercave.com/uwp/uwp3219999.jpeg');
-    background-size: 65%;
+    background: url('https://wallpapercave.com/uwp/uwp3212126.jpeg');
+    background-size: 75%;
     background-repeat: no-repeat;
     background-position: center;
     background-color: #C2EEFF;
